@@ -37,11 +37,17 @@ class Blank extends React.Component {
             "https://crowdbotics-slack-dev.s3.amazonaws.com/media/resources/project/20058/94870343-f3db-49bf-84c5-d29012f36e93.jpg"
         }}
       />
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
     </View>
   )
 }
 
-const styles = StyleSheet.create({ View_1: {}, Button_3: {}, Image_5: {} })
+const styles = StyleSheet.create({
+  View_1: {},
+  Button_3: {},
+  Image_5: {},
+  Button_6: {}
+})
 const mapStateToProps = state => {
   return {}
 }
